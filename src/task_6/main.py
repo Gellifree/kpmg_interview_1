@@ -16,6 +16,8 @@ def eat(money, price, wrap, cookies, cookies_consumed, wrappers_have):
         wrappers_have = 0
         eat(money, price, wrap, cookies, cookies_consumed, wrappers_have)
 
+
+# TODO: test it with a list of data
 def main():
     money = 16
     price = 2
