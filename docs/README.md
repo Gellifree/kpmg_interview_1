@@ -10,3 +10,4 @@
  - [x] task 1 is complete
  - [x] task 6 is complete
  - [x] task 5 is complete
+ - [x] task 3 is complete
