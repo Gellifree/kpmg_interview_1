@@ -19,7 +19,7 @@ def print_map(map):
 # [2,1,3]
 #
 # [ [1,1,0],
-#   [1,0,0]
+#   [1,0,0],
 #   [1,1,1] ]
 def generate_map(list):
     max_height = max(list)

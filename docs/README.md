@@ -7,3 +7,4 @@
  - Python: 3.9.7
 
 ### 2022.01.04.
+ - [x] task 1 is complete
