@@ -8,3 +8,4 @@
 
 ### 2022.01.04.
  - [x] task 1 is complete
+ - [x] task 6 is complete
