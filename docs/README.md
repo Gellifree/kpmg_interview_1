@@ -15,3 +15,8 @@
 ### 2022.01.05
  - [x] task 2 is complete
  - [x] task 4 is complete
+
+## Overall experience
+ - The implementation for the second excersise took about 4-5 hours, and contains a really long function which probably should be sliced to smaller parts.
+ - Not sure if i understood the fifth excercise correctly.
+ - The recursive solution in the sixth excercise would probably need to be refactored
