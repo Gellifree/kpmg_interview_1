@@ -1,3 +1,7 @@
+# Description
+# Create a function which computes the Euclidean norm of each line for a
+# 2D array. Use numpy operations and vectorization, avoid for cycles.
+
 import numpy
 
 def power_function(item):

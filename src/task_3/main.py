@@ -1,3 +1,8 @@
+# Description
+# Create a function which produces an 𝑛×𝑛 array which contains ±1 numbers like
+# a chessboard. (𝑀𝑖,𝑗=(−1)i+j). 
+
+
 import numpy
 
 def chess_pattern(n):

@@ -1,3 +1,11 @@
+# Description:
+# Given the queen's position and the locations of all the obstacles, find and
+# print the number of squares the queen can attack from her position at  (𝑟𝑞,𝑐𝑞).
+# In the board above, there are 24 such squares.
+# There are obstacles on the chessboard, each preventing the queen from
+# attacking any square beyond it on that path.
+
+
 # Check a given position for obstacle
 def is_there_an_obstacle(i,j,obstacles):
     for obstacle in obstacles:
