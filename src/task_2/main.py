@@ -1,6 +1,3 @@
-import numpy
-
-
 # Check a given position for obstacle
 def is_there_an_obstacle(i,j,obstacles):
     for obstacle in obstacles:

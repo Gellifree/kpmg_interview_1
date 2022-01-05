@@ -12,5 +12,5 @@
  - [x] task 5 is complete
  - [x] task 3 is complete
 
- ### 2022.01.05
-  - [x] task 2 is complete
+### 2022.01.05
+ - [x] task 2 is complete
