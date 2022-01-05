@@ -13,6 +13,7 @@ def is_there_an_obstacle(i,j,obstacles):
 def draw_map(map, obstacles):
     print()
     for i in range(len(map)-1, -1, -1):
+        print(f"{i+1}   ", end="")
         for j in range(len(map)):
             if(is_there_an_obstacle(i,j,obstacles)):
                 print("[X]", end=" ")
@@ -21,6 +22,9 @@ def draw_map(map, obstacles):
             else:
                 print(f"[{map[j][i]}]", end=" ")
         print()
+    print("\n     ", end="")
+    for i in range(1,9):
+        print(f"{i}   ", end="")
 
 # Generating the possible squares
 def generate_map(n, r_q, c_q, obstacles):
@@ -139,7 +143,7 @@ def main():
     ]
     map = generate_map(n, r_q, c_q, obstacles)
     result = count_attackable_squares(map)
-    print(f"\nThe Queen can attack {result} squares.")
+    print(f"\n\nThe Queen can attack {result} squares.")
 
 if __name__ == '__main__':
     main()
