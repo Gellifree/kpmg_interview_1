@@ -6,7 +6,7 @@ def is_there_an_obstacle(i,j,obstacles):
             return True
     return False
 
-# Draw the map out in the right order
+# Draw the map out in the 'right' order
 def draw_map(map, obstacles):
     print()
     for i in range(len(map)-1, -1, -1):
@@ -23,7 +23,7 @@ def draw_map(map, obstacles):
     for i in range(1,9):
         print(f"{i}   ", end="")
 
-# Generating the possible squares
+# Generating the map with possible squares
 def generate_map(n, r_q, c_q, obstacles):
     sum = 0
     result = []
@@ -34,9 +34,9 @@ def generate_map(n, r_q, c_q, obstacles):
             result[i].append(0)
 
 
-    ## Generating the different 'sides' of the queen
+    ## Generating the different 'paths' of the queen
 
-    # Right side
+    # Right path
     for i in range(c_q, n+1):
         if(is_there_an_obstacle(r_q-1,i, obstacles) == True):
             result[i-1][r_q-1] = '1'
@@ -44,7 +44,7 @@ def generate_map(n, r_q, c_q, obstacles):
         else:
             result[i-1][r_q-1] = '1'
 
-    # Left side
+    # Left path
     for i in range(c_q, 0, -1):
         if(is_there_an_obstacle(r_q-1,i - 1, obstacles) == True):
             break;

@@ -81,8 +81,6 @@ def sum_matrix(matrix):
             result += matrix[i][j]
     return result
 
-
-# TODO: test it with a list of data
 def main():
     example_list = [2,1]
     map = generate_map(example_list)

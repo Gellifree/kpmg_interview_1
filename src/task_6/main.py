@@ -3,7 +3,9 @@
 # given amount of money.
 
 
-
+# If you have money, spend it on cookies
+# If you have cookies eat them, and collect the wrappers, get more cookies
+# and repeat
 def eat(money, price, wrap, cookies, cookies_consumed, wrappers_have):
     if(money > price):
         cookies = int(money / price)
@@ -17,7 +19,8 @@ def eat(money, price, wrap, cookies, cookies_consumed, wrappers_have):
         eat(money, price, wrap, cookies, cookies_consumed, wrappers_have)
 
 
-# TODO: test it with a list of data
+# The consumed cookies array with only 1 element is a working, but not pretty
+# solution
 def main():
     money = 16
     price = 2

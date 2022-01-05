@@ -16,7 +16,6 @@ def chess_pattern(n):
                     result[i][j] = -1
     return result
 
-
 def main():
     print(chess_pattern(8))
 
